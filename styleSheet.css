@@ -1,16 +1,202 @@
+@import url('https://fonts.google.com/specimen/Open+Sans');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 .logoHeader {
     background-color: #002a4e;
     margin-bottom: 10px;
-    width: auto;
+    width: 100vw;
     height: 200px;
     text-align: center;
+    float: left;
 }
 
-ul {
+.educationText {
+     width: 100vw;
+     float: left;
+}
+
+.skillsAndWorkExperienceHeader {
+    width: 100vw;
+    float: left;
+}
+
+.projectText {
+    width: 100vw;
+    float: left;
+}
+
+.grpahicDesignWork {
+    width: 100vw;
+    float: left;
+}
+
+.dachauHeader {
+    width: 100vw;
+    float: left;
+}
+
+.dachauCaption {
+    grid-row: 2fr;
+    grid-column: 1fr;
+}
+
+.dachau4 img {
+    width: 650px;
+    height: 420px;
+    overflow: hidden;
+}
+
+.dachau6 img {
+    width: 650px;
+    height: 367px;
+    overflow: hidden;
+}
+
+.dachau8 img {
+    width: 650px;
+    height: 420px;
+    overflow: hidden;
+}
+
+.graveSiteHeader {
+    width: 100vw;
+    float: left;
+}
+
+.aboutMeHeader {
+    width: 100vw;
+    float: left;
+}
+
+.educationHeader {
+    width: 100vw;
+    float: left;
+}
+
+.aboutMeImage {
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.aboutMeImage img {
+    margin: -100px -20px;
+}
+
+.grave8 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.educationImage {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.educationText {
+    grid-column: 2;
+    grid-column: 1;
+}
+
+.container5 {
+    width: 75vw;
+    margin: 2rem;
+    display: grid;
+    grid-gap: 25px 15px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+}
+
+.container4 {
+    width: 75vw;
+    margin: 2rem;
+    display: grid;
+    grid-gap: 25px 15px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+}
+
+.container3 {
+    width: 75vw;
+    margin: 2rem;
+    display: grid;
+    grid-gap: 25px 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.container2 {
+    width: 75vw;
+    margin: 5rem;
+    display: grid;
+    grid-gap: 100px 100px;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.aquoGraphic {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.aquoText {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.appleGraphic {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.appleText {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.container {
+    width: 75vw;
+    margin: 10rem;
+    display: grid;
+    grid-gap: 25px 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.left1 {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.right1 {
+    width: 600px;
+    height: 340px;
+    overflow: hidden;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.left2 {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.right2 {
+    width: 600px;
+    height: 340px;
+    overflow: hidden;
+    grid-row: 2;
+    grid-column: 2;
+}
+
+ul.navBar {
+    position: relative;
     list-style-type: none;
     position: sticky;
     margin: 0;
     padding: 0;
+    bottom: 5px;
 }
 
 li {
@@ -24,6 +210,8 @@ li {
     height: 40px;
     margin-bottom: 10px;
     text-align: center;
+    float: left;
+    width: 100vw;
 }
 
 h1 {
@@ -41,12 +229,16 @@ h1 {
     font-size: 30px;
     text-align: center;
     color: white;
+    float: left;
+    width: 100vw;
 }
 
 .homeImageText {
     position: absolute;
     top: 35%;
-    left: 30%;
+    right: -3%;
+    width: 100vw;
+    
 }
 
 .graphics {
@@ -66,8 +258,4 @@ h2 {
     display: inline-block;
     position: absolute;
     left: 35%;
-}
-
-.right {
-    padding-top: 50px;
 }
