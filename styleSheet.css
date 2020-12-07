@@ -119,7 +119,7 @@ body {
 
 .container3 {
     width: 75vw;
-    margin: 2rem;
+    margin: 10rem;
     display: grid;
     grid-gap: 25px 15px;
     grid-template-columns: 1fr 1fr 1fr;
